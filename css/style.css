@@ -3,15 +3,26 @@
     background-color: black;
 }
 
-.header .img {
+
+header {
+    text-transform: uppercase;
+}
+header .img {
     max-width: 100%;
 }
 
-/*header*/
+header .nav-item.active{
+    border-radius: 8px;
+    background-color: red;
+}
 
 .navbar-light {
     background-color: darkolivegreen;
 }
+
+/*header*/
+
+
 
 /* Slde one */
 .site-slider{
