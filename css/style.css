@@ -1,9 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Ruda&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital@1&display=swap');
 
 .html, body{
     font-size: 14px;
-    background-color: white;
+    background-color:white;
 }
 
 
@@ -180,11 +181,10 @@ a.dropdown-item:hover{
 
 /* Second Slider */
 
-
 .separate-line h3{
     width: 100%; 
     text-align: center; 
-    border-bottom: 4px solid rgb(119, 190, 67); 
+    border-bottom: 4px solid #28C18B; 
     line-height: 0em;
     margin: 10px 0 20px;
     color: white;
@@ -195,17 +195,17 @@ a.dropdown-item:hover{
     font-family: 'Ruda', sans-serif;
     background:white; 
     padding:5px 15px; 
-    color: rgb(119, 190, 67);
+    color: #28C18B;
     text-transform: uppercase;
     font-weight: 550;
-    text-shadow: 2px 2px 4px rgb(119, 190, 67);
+    text-shadow: 2px 2px 4px #28C18B;
 }
 
 .separator-infor p {
     text-align: center;
     font-size: 18px;
     padding: 7px 0 ;
-    color: rgb(119, 190, 67);
+    color:#28C18B;
     font-family: 'Itim', cursive;
 }
 
@@ -213,6 +213,13 @@ a.dropdown-item:hover{
     display: inline-block;
     padding: 0px 0px 30px 0px;
 }
+
+.ih-item.square{
+    margin-bottom: 0px;
+    border:none;
+    box-shadow: none;
+}
+
 .e-lesson{
     padding: 0;
 }
@@ -223,7 +230,6 @@ a.dropdown-item:hover{
     height: auto;
 }
 
-
 .lesson img:hover{
     opacity: 0.6;
 }
@@ -233,13 +239,16 @@ a.dropdown-item:hover{
     padding-bottom: 30px;
 }
 
-.stadium img {
-    width: 100%;
-    height: 320px;
+.stadium-zone h3{
+    text-transform: uppercase;
+    font-family: 'Roboto Mono', monospace;
+    text-align: center;
+    font-size: 26px;
 }
 
-.stadium:hover{
-    opacity: 0.5
+.stadium img {
+    width: 100%;
+    height: 410px;
 }
 
 .img-responsive{
@@ -247,7 +256,6 @@ a.dropdown-item:hover{
     max-width: 100%;
     height: auto;
 }
-
 
 .btn-outline-light{
     background-color: rgb(119, 190, 67);
@@ -267,8 +275,42 @@ a.dropdown-item:hover{
     height: 640px;
 }
 
+.achievements{
+    padding-bottom: 30px;
+}
+
+.sign-in-now{
+    background: url(../img/Sign-in-bg.jpeg);
+    background-size: cover;
+    width: 100%;
+    height: 720px;
+    padding: 50px 0px;
+    position: relative;
+}
+
+.sign-in-now .btn{
+    width: 100%;
+}
+
+.title_landing {
+    text-align: left;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    font-weight: bold;
+    color: #fff;
+    padding-left: 20px;
+    border-left: 2px solid #ffc820 !important;
+    font-size: 33px;
+    font-family: 'Roboto Mono', monospace;
+    color: black;
+    font-weight: 1800;
+    text-shadow: 5px 5px 15px  rgb(119, 190, 67)
+}
+
+
+
 .horizon-footer{
-    border-top: 2px solid rgb(119, 190, 67) ;
+    border-top: 2px solid #28C18B ;
     width: 95%;
     margin-top: 2rem;
     margin-bottom: 2rem;
