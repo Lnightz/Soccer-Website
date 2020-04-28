@@ -19,8 +19,36 @@ header .dropdown:hover>.dropdown-menu{
     display: block;
 }
 
+header nav .navbar-nav li a{
+    color: white !important;
+    font-weight: 600;
+    text-shadow: 5px 5px 15px white ;
+}
+
+header .dropdown-menu{
+    background-color:rgb(119, 190, 67);
+}
+
+header .dropdown-item::after{
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: white;
+    transition: width .3s;
+}
+
+header .dropdown-item:hover::after{
+    width: 100%;
+    transition: width .3s;
+}
+
+a.dropdown-item:hover{
+    background-color: transparent !important ;
+}
+
 .navbar-light {
-    background-color: rgb(40,193,138);
+    background-color: rgb(119, 190, 67);
 }
 
 .hover-effect::after{
@@ -28,7 +56,7 @@ header .dropdown:hover>.dropdown-menu{
     display: block;
     width: 0;
     height: 2px;
-    background: black;
+    background: white;
     transition: width .3s;
 }
 
@@ -57,8 +85,8 @@ header .dropdown:hover>.dropdown-menu{
     color:black;
     border-radius: 100px;
     margin: 0px 10px;
-
 }
+
 .right-0{
     right:0;
 }
@@ -100,6 +128,36 @@ header .dropdown:hover>.dropdown-menu{
 }
 
 /* Slick dots */
+
+/* Second Slider */
+.new-class{
+    position: relative;
+}
+.site-slider-two{
+    position: relative;
+}
+
+.position-top-two{
+    position: absolute;
+    top: -10%;
+}
+
+.site-slider-two .slider-btn{
+}
+
+.site-slider-two .slider-btn .prev,
+.site-slider-two .slider-btn .next{
+    border: 2px solid #aaaaaa;
+    width: 40px;
+    height: 40px;
+    line-height: 36px;
+    color:black;
+    border-radius: 5px;
+    font-size:10px;
+    text-align: center;
+}
+
+/* Second Slider */
 
 
 .separate-line h3{
