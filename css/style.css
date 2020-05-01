@@ -47,6 +47,14 @@ header .dropdown-item:hover::after{
     transition: width .3s;
 }
 
+header .nav-item.active::after{
+    content: '';
+    display: block;
+    width: 100%;
+    height: 2px;
+    background: white;
+}
+
 a.dropdown-item:hover{
     background-color: transparent !important ;
 }
@@ -373,3 +381,105 @@ footer .Infor span {
     min-width: 100% !important;
     width: 100% !important;
 }
+
+
+/* login style */
+
+.titile-bg{
+    background-image: url(../img/header_bg_4.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 500px;
+    position: relative;
+}
+
+.titile-name{
+    text-transform: uppercase;
+    font-size: 48px;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 700;
+    color: white;
+    position: absolute;
+    z-index: 1;
+    bottom: 108px;
+}
+
+.login-titile{
+    text-align: center;
+    margin-top:15px;
+}
+
+.fright{
+    float: right !important;
+    font-size: 16px;
+    color:rgb(119, 190, 67);
+    font-weight: 500;
+}
+
+.divcenter{
+    float: none !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+.login-form{
+    margin-bottom: 30px;
+}
+.login-form label{
+    display: inline-block;
+    font-size: 13px;
+    letter-spacing: 1px;
+    color: #555;
+    margin-bottom: 10px;
+    cursor: pointer;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.form-control{
+    width: 100%;
+    height: 34px;
+    padding: 6px 12px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+
+#loginbtn{
+    display: inline-block;
+    position: relative;
+    font-size: 14px;
+    background-color: #1ABC9C;
+    color: #FFF;
+    font-weight: 600;
+    letter-spacing: 1px;
+    border: none;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, .2);
+    text-transform: none;
+    cursor: pointer;
+    outline: 0;
+    margin: 5px;
+    padding: 0 22px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 5px;
+}
+#loginbtn:hover{
+    background-color: #444;
+    color: #FFF;
+    text-shadow: 1px 1px 1px rgba(0,0,0,.2);
+
+}
+
+.no-account{
+    text-align: center;
+    font-size: 26px;
+    font-weight: 500;
+    color: black;
+    border-top: 2px solid grey;
+    border-width: 100%;
+    padding-top:30px;
+    margin-bottom: 30px;
+}
+/* login style */
