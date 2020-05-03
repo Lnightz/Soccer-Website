@@ -490,3 +490,79 @@ footer .Infor span {
     float: right;
 }
 /* Student Account */
+
+.hlv-titile{
+    text-align: center;
+    margin-top:15px;
+}
+
+.ronaldo-note {
+	text-align: right;
+    margin-top:50px;
+}
+.left, .right{
+	height: 400px;
+	border-top: 8px solid white;
+}
+.left{
+	background: red;
+	float: left;
+	width: 100%;
+	text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    font-weight: bold;
+    color: #fff;
+    padding-left: 20px;
+    font-size: 33px;
+    font-family: 'Roboto Mono', monospace;
+    color: white;
+    font-weight: 1800;
+    text-shadow: 5px 5px 15px  rgb(119, 190, 67);
+}
+.right{
+	background-image: url(../img/ronaldo1.jpg);
+	background-size: cover;
+	float: right;
+	width: 100%;
+}
+@media only screen and (max-width:
+768px){
+	.left, .right{
+		float: none;
+		width: 100%;
+	}
+}
+
+
+
+/*pagination*/
+
+.center {
+  text-align: center;
+}
+
+.pagination {
+  display: inline-block;
+}
+
+.pagination a {
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+  transition: background-color .3s;
+  border: 1px solid #ddd;
+  margin: 0 4px;
+}
+
+.pagination a.active {
+  background-color: #4CAF50;
+  color: white;
+  border-radius: 5px;
+}
+
+.pagination a:hover:not(.active) {
+	background-color: #ddd;
+	border-radius: 5px;
+}
