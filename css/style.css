@@ -476,3 +476,17 @@ footer .Infor span {
     margin-bottom: 30px;
 }
 /* login style */
+
+/* Student Account */
+
+#example_wrapper{
+    max-width: 100%;
+    overflow: hidden;
+    margin: 10px 10px 0px 20px !important;
+}
+
+.StudentPayBtn{
+    margin: 30px;
+    float: right;
+}
+/* Student Account */
