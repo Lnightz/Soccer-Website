@@ -189,24 +189,41 @@ a.dropdown-item:hover{
 
 /* Second Slider */
 
+.separate-line{
+    position: relative;
+    text-align: center;
+}
+
 .separate-line h3{
-    width: 100%; 
-    text-align: center; 
-    border-bottom: 4px solid #28C18B; 
-    line-height: 0em;
-    margin: 10px 0 20px;
-    color: white;
-    font-size: 36px;
+    text-align: center;
+    border: none;
+    font-size: 35px !important;
+}
+
+.separate-line:after {
+    content: "";
+    width: 75%;
+    height: 2px;
+    background: #28C18B;
+    position: absolute;
+    left: 50%;
+    top: 55%;
+    transform: translate(-50%,-50%);
+    z-index: -1;
 }
 
 .separate-line h3 span{
     font-family: 'Ruda', sans-serif;
     background:white; 
-    padding:5px 15px; 
+    padding: 5px 15px !important;
     color: #28C18B;
     text-transform: uppercase;
     font-weight: 550;
     text-shadow: 2px 2px 4px #28C18B;
+}
+
+.separator-infor{
+    padding: 40px 0 40px 0;
 }
 
 .separator-infor p {
@@ -281,34 +298,51 @@ a.dropdown-item:hover{
 .sign-in-now{
     background: url(../img/Sign-in-bg.jpeg);
     background-size: cover;
-    width: 100%;
     height: 720px;
-    padding: 50px 0px;
     position: relative;
     background-repeat: no-repeat;
-    background-position: right right;
+    background-position: center center;
 }
 
 .sign-in-now .btn{
     width: 100%;
+    margin-top: 15px;
 }
 
 .title_landing {
-    text-align: left;
+    text-align: center;
     text-transform: uppercase;
-    margin-bottom: 15px;
     font-weight: bold;
-    color: #fff;
     padding-left: 20px;
     border-left: 2px solid #ffc820 !important;
-    font-size: 33px;
     font-family: 'Roboto Mono', monospace;
-    color: black;
-    font-weight: 1800;
-    text-shadow: 5px 5px 15px  rgb(119, 190, 67)
+    /* text-shadow: 5px 5px 15px  rgba(51, 51, 51, 0.952); */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 22px;
 }
 
+.title_landing q{
+    margin: 10px 0px;
+}
 
+@media screen and (max-width: 992px){
+    div.title_landing{
+        font-size: 20px;
+    }
+}
+@media screen and (max-width: 768px){
+    div.title_landing{
+        font-size: 16px;
+    }
+}
+@media screen and (max-width: 576px){
+    div.title_landing{
+        font-size: 14px;
+    }
+}
 
 .horizon-footer{
     border-top: 2px solid #28C18B ;
@@ -752,4 +786,42 @@ button.prices-sort{
     text-decoration: none;
     font-weight: 700;
 }
+
+.card-text.news-description{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    font-size: 14px;
+    color: #454545;
+}
+
+.card-title.news-title{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+
+.news-title{
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.card-subtitle{
+    margin-top: 16px;
+    margin-bottom: 16px;
+    font-style: italic;
+}
+
+.card-subtitle.category{
+    color: #7d8ba4;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 16px;
+}
+
 /* News Styles */
