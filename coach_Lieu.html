@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Huấn luyện viên</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- Bootstrap -->
+        <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" 
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" 
+        crossorigin="anonymous"> -->
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/ihover.css">
+
+        <!-- Slick Slider -->
+        <link rel="stylesheet" type="text/css" href="css/slick.css"/>
+        <link rel="stylesheet" type="text/css" href="css/slick-theme.css" >
+
+        <!-- My styles -->
+        <link href="css/style.css" rel="stylesheet">
+        <link href="css/nav.css" rel="stylesheet">
+        <link href="css/cards.css" rel="stylesheet">
+
+    </head>
+    <body>
+      <header>
+          <nav class="navbar navbar-expand-lg navbar-light">
+              <div class="container">
+                  <a class="navbar-brand" href="index.html">
+                      <img src="img/logo.jpg" width="128px">
+                  </a>
+                  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>  
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
+                      <li class="nav-item hover-effect">
+                        <a class="nav-link" href="index.html">Trang chủ </a>
+                      </li>
+                      <li class="nav-item hover-effect">
+                        <a class="nav-link" href="#">Khoá học</a>
+                      </li>
+                      <li class="nav-item dropdown hover-effect">
+                        <a class="nav-link dropdown-toggle" href="new.html" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                          Tin tức
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <a class="dropdown-item" href="new.html">Khoá học</a>
+                          <a class="dropdown-item" href="#">Sự kiện</a>
+                          <a class="dropdown-item" href="#">Chia sẻ</a>
+                        </div>
+                      </li>
+                      <li class="nav-item hover-effect" >
+                        <a class="nav-link" href="#">Giải đấu</a>
+                      </li>
+                      <li class="nav-item active hover-effect" >
+                        <a class="nav-link" href="#">Huấn luyện viên <span class="sr-only">(current)</span></a>
+                      </li>
+                      <li class="nav-item hover-effect">
+                        <a class="nav-link" href="#">Về chúng tôi</a>
+                      </li>
+                      <!-- <li class="nav-item">
+                        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                      </li> -->
+                    </ul>
+                      <ul class="navbar-nav ml-auto">
+                        <li class="nav-item"">
+                            <a href="#" class="nav-link">
+                                <button class="btn btn-outline-light">
+                                  Đăng nhập
+                                </button>
+                            </a>
+                        </li>
+                        <li class="nav-item"">
+                          <a href="#" class="nav-link">
+                              <button class="btn btn-outline-light">
+                                Đăng ký
+                              </button>
+                          </a>
+                      </li>
+                    </ul>
+                  </div>
+              </div>
+          </nav>
+      </header>
+		
+      <main>
+        <div class="titile-bg">
+              <div class="container">
+                <div class="titile-name">Huấn luyện viên</div>
+              </div>
+        </div>
+        
+        <!-- Coach Qoutes section -->
+
+        <div class="container-fluid">
+          <div class="row coach-quotes-section">
+              <div class="col-lg-8 col-md-12 padding-0">
+                  <div class="coach-img-left">
+                      <div class="coach-qoutes">
+                          <q class="coach-qoutes-content">Tôi không hoàn hảo nhưng tôi biết học hỏi.
+                          </q>
+                          <p class="coach-qoutes-name">--Cristiano Ronaldo--</p>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-lg-4 col-md-12 padding-0">
+                  <div class="coach-img-right">
+                  </div>
+              </div>
+          </div>
+        </div>
+
+        <!-- Coach Qoutes section -->
+        
+      
+        <div class="hlv-titile">
+            <h2>ĐỘI NGŨ HUẤN LUYỆN VIÊN</h2>
+        </div>
+      
+        <!-- Coachs infor section -->
+        <div class="container-fluid">
+            <!-- Filter -->
+            <div class="row">
+            <div class="col-xl-3 col-lg-2 col-md-3 col-xs-12 col-sm-3">
+                <div class="filter-titile">
+                    <h4><i class="fas fa-search" style="padding-right:5px"></i>Tìm kiếm nhanh</h4>
+                  </div>
+                  <div id="accordion">
+                      <div class="card">
+                        <div class="card-header collapsed" id="headingOne" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                          <h4 class="mb-0 card-title">
+                            Trình độ
+                          </h4>
+                        </div>                  
+                        <div id="collapseOne" class="accordion-body collapse" aria-labelledby="headingOne">
+                          <div class="card-body">
+                            <ul class="list-group">
+                              <li class="list-group-item">
+                                  <div class="checkbox">
+                                      <label>
+                                          <input type="checkbox" value="">Cơ bản</label>
+                                  </div>
+                              </li>
+                              <li class="list-group-item">
+                                  <div class="checkbox">
+                                      <label>
+                                          <input type="checkbox" value="">Trung Cấp</label>
+                                  </div>
+                              </li>
+                              <li class="list-group-item">
+                                  <div class="checkbox">
+                                      <label>
+                                          <input type="checkbox" value="">Chuyên nghiệp</label>
+                                  </div>
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="card">
+                        <div class="card-header collapsed" id="headingTwo" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                          <h4 class="mb-0 card-title">
+                            Độ tuổi
+                          </h4>
+                        </div>                  
+                        <div id="collapseTwo" class="accordion-body collapse" aria-labelledby="headingTwo">
+                          <div class="card-body">
+                            <ul class="list-group">
+                              <li class="list-group-item">
+                                  <div class="checkbox">
+                                      <label>
+                                          <input type="checkbox" value="">5-9</label>
+                                  </div>
+                              </li>
+                              <li class="list-group-item">
+                                  <div class="checkbox">
+                                      <label>
+                                          <input type="checkbox" value="">9-15</label>
+                                  </div>
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="card">
+                        <div class="card-header collapsed" id="headingThree" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                          <h4 class="mb-0 card-title">
+                            Giới tính
+                          </h4>
+                        </div>                  
+                        <div id="collapseThree" class="accordion-body collapse" aria-labelledby="headingThree">
+                          <div class="card-body">
+                            <ul class="list-group">
+                              <li class="list-group-item">
+                                  <div class="checkbox">
+                                      <label>
+                                          <input type="checkbox" value="">Nam</label>
+                                  </div>
+                              </li>
+                              <li class="list-group-item">
+                                  <div class="checkbox">
+                                      <label>
+                                          <input type="checkbox" value="">Nữ</label>
+                                  </div>
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="card">
+                        <div class="card-header collapsed" id="headingFour" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour"> 
+                          <h4 class="mb-0 card-title">
+                            Huấn luyện viên
+                          </h4>
+                        </div>                  
+                        <div id="collapseFour" class="accordion-body collapse" aria-labelledby="headingFour">
+                          <div class="card-body">
+                            <ul class="list-group">
+                              <li class="list-group-item">
+                                  <div class="checkbox">
+                                      <label>
+                                          <input type="checkbox" value="">Quốc tế</label>
+                                  </div>
+                              </li>
+                              <li class="list-group-item">
+                                  <div class="checkbox">
+                                      <label>
+                                          <input type="checkbox" value="">Quốc gia</label>
+                                  </div>
+                              </li>
+                              <li class="list-group-item">
+                                <div class="checkbox">
+                                    <label>
+                                        <input type="checkbox" value="">Đào tạo chính quy</label>
+                                </div>
+                            </li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="card">
+                        <div class="card-header collapsed" id="headingFive" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                          <h4 class="mb-0 card-title">
+                            Buổi học
+                          </h4>
+                        </div>                  
+                        <div id="collapseFive" class="accordion-body collapse" aria-labelledby="headingFive">
+                          <div class="card-body">
+                            <ul class="list-group">
+                              <li class="list-group-item">
+                                  <div class="checkbox">
+                                      <label>
+                                          <input type="checkbox" value="">Sáng</label>
+                                  </div>
+                              </li>
+                              <li class="list-group-item">
+                                  <div class="checkbox">
+                                      <label>
+                                          <input type="checkbox" value="">Trưa</label>
+                                  </div>
+                              </li>
+                              <li class="list-group-item">
+                                <div class="checkbox">
+                                    <label>
+                                        <input type="checkbox" value="">Chiều</label>
+                                </div>
+                            </li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="card">
+                        <div class="card-header collapsed collapsed" id="headingSix" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                          <h4 class="mb-0 card-title">
+                            Thời gian
+                          </h4>
+                        </div>                  
+                        <div id="collapseSix" class="accordion-body collapse" aria-labelledby="headingSix" >
+                          <div class="card-body">
+                            <ul class="list-group">
+                              <li class="list-group-item">
+                                  <div class="checkbox">
+                                      <label>
+                                          <input type="checkbox" value="">1h</label>
+                                  </div>
+                              </li>
+                              <li class="list-group-item">
+                                  <div class="checkbox">
+                                      <label>
+                                          <input type="checkbox" value="">1h30</label>
+                                  </div>
+                              </li>
+                              <li class="list-group-item">
+                                <div class="checkbox">
+                                    <label>
+                                        <input type="checkbox" value="">2h</label>
+                                </div>
+                            </li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                  </div>
+                  <div class="btn btn-primary btn-lg" style="float:right; margin-top: 10px;">Tìm</div>
+            </div>
+            <!--Filter-->
+            <div class ="col-xl-9 col-lg-10 col-md-9 col-xs-12 col-sm-9">
+            <!-- Coach Cards -->
+              <div class="row flex-row-reverse">
+                <div class="coach-title-section">
+                  <form class="form-inline">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                  </form>
+                  <div class="btn-sort">
+                    <button class="btn prices-sort" type="button" data-toggle="dropdown" 
+                    aria-haspopup="true" aria-expanded="false">Thứ tự<span><i class="fas fa-chevron-down"></i></span> </button>
+                    <div class="dropdown-menu dropdown-menu-right">
+                    <a class="dropdown-item" href="#">Mới đăng</a>
+                    <a class="dropdown-item" href="#">Thứ tự chữ cái</a>
+                    <a class="dropdown-item" href="#">Cũ nhất</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="new-class" style="padding: top 25px">
+                  <div class="container">
+                      <div class="row divcenter">
+                          <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12">
+                            <div class="card" style="width: auto;">
+                              <div class="inner">
+                                <div class="embed-responsive embed-responsive-4by3">
+                                  <a href="#">
+                                    <img src="img/375-3750422_messi-face-png-transparent-png.png" class="card-img-top embed-responsive-item" alt="...">
+                                  </a>
+                                </div>
+
+                              </div>
+                              <div class="card-body">
+                                <div class="d-flex justify-content-between">
+                                  <a href="#">
+                                    <h5 class="card-title">HLV: Tên</h5>
+                                  </a>
+                                  
+                                </div>
+                                <p class="card-text">
+                                  Bắng cấp: <span>...</span>
+                                </p>
+                                <p class="card-text">
+                                  Thành tựu: <span>...</span> 
+                                </p>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12">
+                            <div class="card" style="width: auto;">
+                              <div class="inner">
+                                <div class="embed-responsive embed-responsive-4by3">
+                                  <a href="#">
+                                    <img src="img/neuer.jpg" class="card-img-top embed-responsive-item" alt="...">
+                                  </a>
+                                </div>
+
+                              </div>
+                              <div class="card-body">
+                                <div class="d-flex justify-content-between">
+                                  <a href="#">
+                                    <h5 class="card-title">HLV: Tên</h5>
+                                  </a>
+                                  
+                                </div>
+                                <p class="card-text">
+                                  Bắng cấp: <span>...</span>
+                                </p>
+                                <p class="card-text">
+                                  Thành tựu: <span>...</span> 
+                                </p>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12">
+                            <div class="card" style="width: auto;">
+                              <div class="inner">
+                                <div class="embed-responsive embed-responsive-4by3">
+                                  <a href="#">
+                                    <img src="img/neymar-brazil.jpg" class="card-img-top embed-responsive-item" alt="...">
+                                  </a>
+                                </div>
+
+                              </div>
+                              <div class="card-body">
+                                <div class="d-flex justify-content-between">
+                                  <a href="#">
+                                    <h5 class="card-title">HLV: Tên</h5>
+                                  </a>
+                                  
+                                </div>
+                                <p class="card-text">
+                                  Bắng cấp: <span>...</span>
+                                </p>
+                                <p class="card-text">
+                                  Thành tựu: <span>...</span> 
+                                </p>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12">
+                            <div class="card" style="width: auto;">
+                              <div class="inner">
+                                <div class="embed-responsive embed-responsive-4by3">
+                                  <a href="#">
+                                    <img src="img/NGO75851.jpg" class="card-img-top embed-responsive-item" alt="...">
+                                  </a>
+                                </div>
+
+                              </div>
+                              <div class="card-body">
+                                <div class="d-flex justify-content-between">
+                                  <a href="#">
+                                    <h5 class="card-title">HLV: Tên</h5>
+                                  </a>
+                                  
+                                </div>
+                                <p class="card-text">
+                                  Bắng cấp: <span>...</span>
+                                </p>
+                                <p class="card-text">
+                                  Thành tựu: <span>...</span> 
+                                </p>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12">
+                            <div class="card" style="width: auto;">
+                              <div class="inner">
+                                <div class="embed-responsive embed-responsive-4by3">
+                                  <a href="#">
+                                    <img src="img/ronaldo-cr7.jpg" class="card-img-top embed-responsive-item" alt="...">
+                                  </a>
+                                </div>
+
+                              </div>
+                              <div class="card-body">
+                                <div class="d-flex justify-content-between">
+                                  <a href="#">
+                                    <h5 class="card-title">HLV: Tên</h5>
+                                  </a>
+                                  
+                                </div>
+                                <p class="card-text">
+                                  Bắng cấp: <span>...</span>
+                                </p>
+                                <p class="card-text">
+                                  Thành tựu: <span>...</span> 
+                                </p>
+                              </div>
+                            </div>
+                          </div>
+                      </div>  
+                  </div>
+              </div>
+            <!-- Coach Cards -->
+            </div>
+          </div>
+        </div>
+        
+        <div style="text-align:center">
+          <div class="pagination">
+          <a href="#">&laquo;</a>
+          <a href="#">1</a>
+          <a href="#" class="active">2</a>
+          <a href="#">3</a>
+          <a href="#">4</a>
+          <a href="#">5</a>
+          <a href="#">6</a>
+          <a href="#">&raquo;</a>
+          </div>
+        </div>
+        <hr class="horizon-footer">
+
+      </main>
+
+      <footer>
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-lg-8 col-md-8 col-sm-7 col-xs-12">
+              <h2>
+                BIT Soccer 
+              </h2>
+              <ul class="Infor">
+                <li><span><i class="fa fa-map-marker"></i></span>
+                  Văn phòng đại diện: 1 Lê Duẩn, Quận 1, Tp. Hồ Chí Minh
+                </li>
+                <li><span><i class="fa fa-mobile"></i></span>
+                  034 567 899
+                </li>
+              </ul>
+              <ul class="Social">
+                <li><a href=""></a><i class="fab fa-facebook fa-3x" style="color: blue;"></i></li>
+                <li><a href=""></a><i class="fab fa-instagram fa-3x" style="color: rgb(213, 25, 86);"></i></li>
+              </ul>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-5 col-xs-12">
+              <div class="footer-fb-content">
+                <div class="fb-page" data-href="https://www.facebook.com/sonlathayngon/" data-tabs="" data-width="" 
+                data-height="" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true">
+                <blockquote cite="https://www.facebook.com/sonlathayngon/" class="fb-xfbml-parse-ignore">
+                  <a href="https://www.facebook.com/sonlathayngon/">SonMooi</a>
+                </blockquote>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+
+        <!-- Javascript -->
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" 
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" 
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" 
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+        <script type="text/javascript" src="js/slick.min.js"></script>
+        <script type="text/javascript" src="js/main.js"></script>
+		<!-- Slick slider -->
+        <script type="text/javascript" src="js/slick.min.js"></script>
+
+        <!-- My Js -->
+        <script type="text/javascript" src="js/main.js"></script>
+        <!-- Font Awesome -->
+        <script src="https://kit.fontawesome.com/16b5112f28.js" crossorigin="anonymous"></script>
+
+        <!-- Facebook script -->
+        <div id="fb-root"></div>
+        <script async defer crossorigin="anonymous" src="https://connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v6.0"></script>
+    </body>
+</html>

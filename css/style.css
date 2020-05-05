@@ -491,56 +491,114 @@ footer .Infor span {
 }
 /* Student Account */
 
+/* Coach styles */
+
 .hlv-titile{
     text-align: center;
     margin-top:15px;
 }
 
-.ronaldo-note {
-	text-align: right;
-    margin-top:50px;
+.padding-0{
+    padding:0;
 }
-.left, .right{
-	height: 400px;
-	border-top: 8px solid white;
+
+.coach-img-left,
+.coach-img-right{
+    position: relative;
 }
-.left{
-	background: red;
-	float: left;
-	width: 100%;
-	text-align: center;
-    text-transform: uppercase;
-    margin-bottom: 15px;
-    font-weight: bold;
-    color: #fff;
-    padding-left: 20px;
-    font-size: 33px;
-    font-family: 'Roboto Mono', monospace;
+
+.coach-img-left {
+    background-image: url(../img/Red_Background_03.jpg);
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 500px;
+    width: 100%;
+}
+
+.coach-img-right {
+    background-image: url(../img/cristiano-ronaldo-portugal-juventus.jpeg);
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 500px;
+    max-width: 100%;
+}
+
+.coach-img-left .coach-qoutes{
     color: white;
-    font-weight: 1800;
-    text-shadow: 5px 5px 15px  rgb(119, 190, 67);
-}
-.right{
-	background-image: url(../img/ronaldo1.jpg);
-	background-size: cover;
-	float: right;
-	width: 100%;
-}
-@media only screen and (max-width:
-768px){
-	.left, .right{
-		float: none;
-		width: 100%;
-	}
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-transform: uppercase;
+    font-size: 30px;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 700;
+    text-shadow: 3px 3px 8px rgba(252, 252, 252, 0.952);
 }
 
+.coach-qoutes-name{
+    font-size: 24px;
+    text-align: right;
+    padding-top:10px;
+    
+}
 
+.card-img-top {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+@media screen and (max-width: 992px){
+    p.coach-qoutes-name{
+        font-size: 20px;
+    }
+    q.coach-qoutes-content{
+        font-size: 26px;
+    }
+}
+
+@media screen and (max-width: 768px){
+    p.coach-qoutes-name{
+        font-size: 16px;
+    }
+    q.coach-qoutes-content{
+        font-size: 22px;
+    }
+}
+
+@media screen and (max-width: 576px){
+    p.coach-qoutes-name{
+        font-size: 10px;
+    }
+    q.coach-qoutes-content{
+        font-size: 16px;
+    }
+}
+
+.coach-quotes-section{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.coach-title-section{
+    float: right;
+}
+.coach-title-section .btn-sort{
+    margin-top: 10px;
+    float: right;
+
+}
+
+.coach-quotes{
+    margin-top: 10px;
+}
+/* Coach styles */
 
 /*pagination*/
-
-.center {
-  text-align: center;
-}
 
 .pagination {
   display: inline-block;
@@ -566,3 +624,132 @@ footer .Infor span {
 	background-color: #ddd;
 	border-radius: 5px;
 }
+
+/*pagination*/
+
+/* Filter Bar */
+
+#accordion .card{
+    border: none;
+    box-shadow: none;
+    border-radius: 0 !important;
+}
+
+#accordion .card-header {
+    padding: .25rem 0rem;
+    border-bottom: 2px solid darkslategrey;
+    background-color: white;
+    cursor: pointer;
+}
+
+#accordion .card-header button{
+    font-size: 18px;
+    color: black;
+    text-decoration: none !important;
+    padding: 0;
+}
+
+#accordion .card-header .btn-link:hover {
+    text-decoration: none !important;
+    color: blue;
+}
+
+#accordion .card-body{
+    padding: 0 !important;
+}
+
+#accordion .list-group-item{
+    padding: 5px;
+    border:none;
+    border-top: .5px solid rgb(99, 99, 99);
+    border-radius: 0 !important;
+}
+
+#accordion .list-group-item .checkbox label,input{
+    margin-right: 5px;
+    padding-left: 10px;
+
+}
+
+#accordion .list-group-item .checkbox label{
+    margin-bottom: .25rem;
+    margin-bottom: .25rem;
+    font-size: 16px;
+}
+
+#accordion .card-title{
+    font-size: 18px;
+    color: black;
+    text-decoration: none !important;
+    padding: 0;
+    display: inline-flex;
+    margin: 5px 0 5px 0 !important;
+}
+
+#accordion .card-header:after{
+    font-family: "FontAwesome";
+    content: "\f077" ;
+    float: right;
+    display: inline-flex;
+
+}
+
+#accordion .card-header.collapsed:after{
+    content:"\f078"
+}
+
+/* Filter Bar */
+
+/* Classes styles */
+.classes-title-section{
+    justify-content: space-between;
+    margin-top: 5px;
+}
+
+button.prices-sort{
+    background-color: white !important;
+}
+
+.classes-title-section .btn-sort{
+    margin-top: 10px;
+}
+
+.btn-sort span{
+    padding-left: 5px;
+}
+
+.filter-titile{
+    color: rgb(119, 190, 67);
+    text-align: center;
+    margin-top: 20px;
+}
+
+.filter-titile h4{
+    font-size: 26px;
+}
+
+/* Classes styles */
+
+/* News Styles */
+
+.tag-inline{
+    list-style-type: none;
+}
+
+.tag-inline li{
+    display: inline-block;
+}
+
+.m-y-24px{
+    margin-top: 20px!important;
+    margin-bottom: 20px!important
+}
+
+.tag-inline li a{
+    color: black;
+    font-size: 16px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 700;
+}
+/* News Styles */
