@@ -907,3 +907,26 @@ button.prices-sort{
     padding-right: 0;
 }
 /* User_Profiles Styles */
+
+/* User_Classes Styles */
+
+.class-filter a{
+    font-size: 16px;
+    /* border: 1px solid rgb(119, 190, 67); */
+    border-radius: 10px;
+    margin: 0px 2px;
+    /* padding: 10px 20px; */
+    background-color: rgb(119, 190, 67);
+}
+
+.class-notification{
+    font-family: 'Roboto Mono', monospace;
+    text-align: center;
+    border: 1px solid rgb(209, 209, 209);
+    padding: 10px;
+    border-radius: 10px;
+    -webkit-box-shadow: 0 3px 7px -1px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 3px 7px -1px rgba(0, 0, 0, 0.1);
+}
+
+/* User_Classes Styles */
