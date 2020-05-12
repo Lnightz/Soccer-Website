@@ -13,69 +13,72 @@
         <link rel="stylesheet" type="text/css" href="css/slick.css"/>
         <link rel="stylesheet" type="text/css" href="css/slick-theme.css" >
 
+        <!-- Calendar theme -->
+        <link rel="stylesheet" href="css/theme2.css">
+
         <!-- My styles -->
         <link href="css/style.css" rel="stylesheet">
         <link href="css/nav.css" rel="stylesheet">
         <link href="css/classcard.css" rel="stylesheet">
     </head>
     <body>
-        <header>
-            <nav class="navbar navbar-expand-lg navbar-light">
-              <div class="container">
-                  <a class="navbar-brand" href="index.html">
-                      <img src="img/logo.jpg" width="128px">
-                  </a>
-                  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                  </button>  
-                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav mr-auto">
-                      <li class="nav-item hover-effect">
-                        <a class="nav-link" href="index.html">Trang chủ <span class="sr-only">(current)</span></a>
-                      </li>
-                      <li class="nav-item hover-effect">
-                        <a class="nav-link" href="classes_Thi.html">Khoá học</a>
-                      </li>
-                      <li class="nav-item dropdown hover-effect">
-                        <a class="nav-link" href="new.html" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false">
-                          Tin tức
+      <header>
+        <nav class="navbar navbar-expand-lg navbar-light">
+          <div class="container">
+              <a class="navbar-brand" href="index.html">
+                  <img src="img/logo.jpg" width="128px">
+              </a>
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>  
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                  <li class="nav-item hover-effect">
+                    <a class="nav-link" href="index.html">Trang chủ <span class="sr-only">(current)</span></a>
+                  </li>
+                  <li class="nav-item hover-effect">
+                    <a class="nav-link" href="classes_Thi.html">Khoá học</a>
+                  </li>
+                  <li class="nav-item dropdown hover-effect">
+                    <a class="nav-link" href="new.html" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                      Tin tức
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <a class="dropdown-item" href="#">Khoá học</a>
+                      <a class="dropdown-item" href="#">Sự kiện</a>
+                      <a class="dropdown-item" href="#">Chia sẻ</a>
+                    </div>
+                  </li>
+                  <li class="nav-item hover-effect" >
+                    <a class="nav-link" href="tourament_Thi.html">Giải đấu</a>
+                  </li>
+                  <li class="nav-item hover-effect" >
+                    <a class="nav-link" href="coach_Lieu.html">Huấn luyện viên</a>
+                  </li>
+                  <li class="nav-item hover-effect">
+                    <a class="nav-link" href="about-us_Lieu.html">Về chúng tôi</a>
+                  </li>
+                    <!-- <li class="nav-item">
+                      <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                    </li> -->
+                  </ul>
+                  <ul class="navbar-nav ml-auto">
+                    <li class="nav-item dropdown hover-effect">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                          Tên học viên
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                          <a class="dropdown-item" href="#">Khoá học</a>
-                          <a class="dropdown-item" href="#">Sự kiện</a>
-                          <a class="dropdown-item" href="#">Chia sẻ</a>
+                          <a class="dropdown-item" href="user_profile.html">Thông tin cá nhân</a>
+                          <a class="dropdown-item" href="userclasses.html">Lớp của tôi</a>
+                          <a class="dropdown-item" href="student_account.html">Tài khoản học viên</a>
+                          <a class="dropdown-item" href="student_pay.html">Thanh Toán</a>
                         </div>
                       </li>
-                      <li class="nav-item hover-effect" >
-                        <a class="nav-link" href="#">Giải đấu</a>
-                      </li>
-                      <li class="nav-item hover-effect" >
-                        <a class="nav-link" href="coach_Lieu.html">Huấn luyện viên</a>
-                      </li>
-                      <li class="nav-item hover-effect">
-                        <a class="nav-link" href="#">Về chúng tôi</a>
-                      </li>
-                        <!-- <li class="nav-item">
-                          <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-                        </li> -->
-                      </ul>
-                      <ul class="navbar-nav ml-auto">
-                        <li class="nav-item dropdown hover-effect">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false">
-                              Tên học viên
-                            </a>
-                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                              <a class="dropdown-item" href="#">Thông tin cá nhân</a>
-                              <a class="dropdown-item" href="#">Lớp của tôi</a>
-                              <a class="dropdown-item" href="student_account.html">Tài khoản học viên</a>
-                              <a class="dropdown-item" href="#">Thanh Toán</a>
-                            </div>
-                          </li>
-                      </ul>
-                    </div>
+                  </ul>
                 </div>
-            </nav>
-        </header>
+            </div>
+        </nav>
+      </header>
 
         <main>
 
@@ -113,21 +116,20 @@
                                         <div class="meta">
                                           <div class="photo" style="background-image: url('./img/Lop2.jpg')"></div>
                                           <ul class="details">
-                                            <li class="author"><a href="#">John Doe</a></li>
-                                            <li class="date">Aug. 24, 2015</li>
+                                            <li class="author"><a href="#">Cristian Ronaldo</a></li>
+                                            <li class="date">Aug. 24, 2020</li>
                                             <li class="tags">
                                               <ul>
-                                                <li><a href="#">Learn</a></li>
-                                                <li><a href="#">Code</a></li>
-                                                <li><a href="#">HTML</a></li>
-                                                <li><a href="#">CSS</a></li>
+                                                <li><a href="#">Nam</a></li>
+                                                <li><a href="#">9-15t</a></li>
+                                                <li><a href="#">2h</a></li>
                                               </ul>
                                             </li>
                                           </ul>
                                         </div>
                                         <div class="description">
-                                          <h1>Learning to Code</h1>
-                                          <h2>Opening a door to the future</h2>
+                                          <h1>Kỹ năng tâng bóng</h1>
+                                          <h2>Lớp học nâng cao</h2>
                                           <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad eum dolorum architecto obcaecati enim dicta praesentium, quam nobis! Neque ad aliquam facilis numquam. Veritatis, sit.</p>
                                           <p class="read-more">
                                             <a href="#">Read More</a>
@@ -136,40 +138,48 @@
                                       </div>
                                 </div>
                                 <div class="col-lg-12 col-md-12">
-                                    <div class="blog-card">
-                                        <div class="meta">
-                                          <div class="photo" style="background-image: url('./img/Lop2.jpg')"></div>
-                                          <ul class="details">
-                                            <li class="author"><a href="#">John Doe</a></li>
-                                            <li class="date">Aug. 24, 2015</li>
-                                            <li class="tags">
-                                              <ul>
-                                                <li><a href="#">Learn</a></li>
-                                                <li><a href="#">Code</a></li>
-                                                <li><a href="#">HTML</a></li>
-                                                <li><a href="#">CSS</a></li>
-                                              </ul>
-                                            </li>
-                                          </ul>
-                                        </div>
-                                        <div class="description">
-                                          <h1>Learning to Code</h1>
-                                          <h2>Opening a door to the future</h2>
-                                          <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad eum dolorum architecto obcaecati enim dicta praesentium, quam nobis! Neque ad aliquam facilis numquam. Veritatis, sit.</p>
-                                          <p class="read-more">
-                                            <a href="#">Read More</a>
-                                          </p>
-                                        </div>
+                                  <div class="blog-card">
+                                      <div class="meta">
+                                        <div class="photo" style="background-image: url('./img/Lop2.jpg')"></div>
+                                        <ul class="details">
+                                          <li class="author"><a href="#">Cristian Ronaldo</a></li>
+                                          <li class="date">Aug. 24, 2020</li>
+                                          <li class="tags">
+                                            <ul>
+                                              <li><a href="#">Nam</a></li>
+                                              <li><a href="#">9-15t</a></li>
+                                              <li><a href="#">2h</a></li>
+                                            </ul>
+                                          </li>
+                                        </ul>
                                       </div>
+                                      <div class="description">
+                                        <h1>Kỹ năng tâng bóng</h1>
+                                        <h2>Lớp học nâng cao</h2>
+                                        <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad eum dolorum architecto obcaecati enim dicta praesentium, quam nobis! Neque ad aliquam facilis numquam. Veritatis, sit.</p>
+                                        <p class="read-more">
+                                          <a href="#">Read More</a>
+                                        </p>
+                                      </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-12">
-                        <div class="class-notification">
-                            <h2 style="color:red">Thông báo</h2>
-                            <p>Bạn <span>không</span> học ngày hôm nay.</p>
+                      <div class="container-fluid">
+                        <div class="row">
+                          <div class="col-lg-12">
+                            <div class="class-notification">
+                              <h2 style="color:red">Thông báo</h2>
+                              <p>Bạn <span>không</span> học ngày hôm nay.</p>
+                            </div>
+                          </div>
+                          <div class="col-lg-12">
+                            <div id="caleandar"></div>
+                          </div>
                         </div>
+                      </div>
                     </div>
                 </div>
             </div>
@@ -230,7 +240,9 @@
         <script type="text/javascript" src="js/main.js"></script>
         <!-- Font Awesome -->
         <script src="https://kit.fontawesome.com/16b5112f28.js" crossorigin="anonymous"></script>
-
+        <!-- Calendar js -->
+        <script src="js/caleandar.js" type="text/javascript"></script>
+        <script src="js/calendardemo.js" type="text/javascript"></script>
         <!-- Facebook script -->
         <div id="fb-root"></div>
         <script async defer crossorigin="anonymous" src="https://connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v6.0"></script>
