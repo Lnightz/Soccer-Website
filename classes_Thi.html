@@ -81,191 +81,200 @@
             <div class="container-fluid">
                 <div class="row">
                 <div class="col-xl-3 col-lg-2 col-md-3 col-xs-12 col-sm-3">
-                    <div class="filter-titile">
-                        <h4><i class="fas fa-search" style="padding-right:5px"></i>Tìm kiếm nhanh</h4>
-                      </div>
-                      <div id="accordion">
-                          <div class="card">
-                            <div class="card-header collapsed" id="headingOne" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
-                              <h4 class="mb-0 card-title">
-                                Trình độ
-                              </h4>
-                            </div>                  
-                            <div id="collapseOne" class="accordion-body collapse" aria-labelledby="headingOne">
-                              <div class="card-body">
-                                <ul class="list-group">
-                                  <li class="list-group-item">
-                                      <div class="checkbox">
-                                          <label>
-                                              <input type="checkbox" value="">Cơ bản</label>
-                                      </div>
-                                  </li>
-                                  <li class="list-group-item">
-                                      <div class="checkbox">
-                                          <label>
-                                              <input type="checkbox" value="">Trung Cấp</label>
-                                      </div>
-                                  </li>
-                                  <li class="list-group-item">
-                                      <div class="checkbox">
-                                          <label>
-                                              <input type="checkbox" value="">Chuyên nghiệp</label>
-                                      </div>
-                                  </li>
-                                </ul>
-                              </div>
-                            </div>
-                          </div>
-                          <div class="card">
-                            <div class="card-header collapsed" id="headingTwo" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                              <h4 class="mb-0 card-title">
-                                Độ tuổi
-                              </h4>
-                            </div>                  
-                            <div id="collapseTwo" class="accordion-body collapse" aria-labelledby="headingTwo">
-                              <div class="card-body">
-                                <ul class="list-group">
-                                  <li class="list-group-item">
-                                      <div class="checkbox">
-                                          <label>
-                                              <input type="checkbox" value="">5-9</label>
-                                      </div>
-                                  </li>
-                                  <li class="list-group-item">
-                                      <div class="checkbox">
-                                          <label>
-                                              <input type="checkbox" value="">9-15</label>
-                                      </div>
-                                  </li>
-                                </ul>
-                              </div>
-                            </div>
-                          </div>
-                          <div class="card">
-                            <div class="card-header collapsed" id="headingThree" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                              <h4 class="mb-0 card-title">
-                                Giới tính
-                              </h4>
-                            </div>                  
-                            <div id="collapseThree" class="accordion-body collapse" aria-labelledby="headingThree">
-                              <div class="card-body">
-                                <ul class="list-group">
-                                  <li class="list-group-item">
-                                      <div class="checkbox">
-                                          <label>
-                                              <input type="checkbox" value="">Nam</label>
-                                      </div>
-                                  </li>
-                                  <li class="list-group-item">
-                                      <div class="checkbox">
-                                          <label>
-                                              <input type="checkbox" value="">Nữ</label>
-                                      </div>
-                                  </li>
-                                </ul>
-                              </div>
-                            </div>
-                          </div>
-                          <div class="card">
-                            <div class="card-header collapsed" id="headingFour" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour"> 
-                              <h4 class="mb-0 card-title">
-                                Huấn luyện viên
-                              </h4>
-                            </div>                  
-                            <div id="collapseFour" class="accordion-body collapse" aria-labelledby="headingFour">
-                              <div class="card-body">
-                                <ul class="list-group">
-                                  <li class="list-group-item">
-                                      <div class="checkbox">
-                                          <label>
-                                              <input type="checkbox" value="">Quốc tế</label>
-                                      </div>
-                                  </li>
-                                  <li class="list-group-item">
-                                      <div class="checkbox">
-                                          <label>
-                                              <input type="checkbox" value="">Quốc gia</label>
-                                      </div>
-                                  </li>
-                                  <li class="list-group-item">
+                  <div class="navbar-expand-lg">
+                    <div class="row d-flex justify-content-center">
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#accordion" aria-controls="accordion" aria-expanded="false" aria-label="Toggle navigation">
+                            <h4 class="filter-titile" ><i class="fas fa-search" style="padding-right:5px"></i>Tìm kiếm nhanh</h4>
+                        </button>
+                    </div>
+                    
+                    <h4 class="filter-titile hide"><i class="fas fa-search" style="padding-right:5px"></i>Tìm kiếm nhanh</h4>
+                    <div id="accordion" class="filter-bar collapse navbar-collapse">
+                        <div class="card">
+                        <div class="card-header collapsed" id="headingOne" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                            <h4 class="mb-0 card-title">
+                            Trình độ
+                            </h4>
+                        </div>                  
+                        <div id="collapseOne" class="accordion-body collapse" aria-labelledby="headingOne">
+                            <div class="card-body">
+                            <ul class="list-group">
+                                <li class="list-group-item">
                                     <div class="checkbox">
                                         <label>
-                                            <input type="checkbox" value="">Đào tạo chính quy</label>
+                                            <input type="checkbox" value="">Cơ bản</label>
                                     </div>
                                 </li>
-                                </ul>
-                              </div>
-                            </div>
-                          </div>
-                          <div class="card">
-                            <div class="card-header collapsed" id="headingFive" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-                              <h4 class="mb-0 card-title">
-                                Buổi học
-                              </h4>
-                            </div>                  
-                            <div id="collapseFive" class="accordion-body collapse" aria-labelledby="headingFive">
-                              <div class="card-body">
-                                <ul class="list-group">
-                                  <li class="list-group-item">
-                                      <div class="checkbox">
-                                          <label>
-                                              <input type="checkbox" value="">Sáng</label>
-                                      </div>
-                                  </li>
-                                  <li class="list-group-item">
-                                      <div class="checkbox">
-                                          <label>
-                                              <input type="checkbox" value="">Trưa</label>
-                                      </div>
-                                  </li>
-                                  <li class="list-group-item">
+                                <li class="list-group-item">
                                     <div class="checkbox">
                                         <label>
-                                            <input type="checkbox" value="">Chiều</label>
+                                            <input type="checkbox" value="">Trung Cấp</label>
                                     </div>
                                 </li>
-                                </ul>
-                              </div>
-                            </div>
-                          </div>
-                          <div class="card">
-                            <div class="card-header collapsed collapsed" id="headingSix" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
-                              <h4 class="mb-0 card-title">
-                                Thời gian
-                              </h4>
-                            </div>                  
-                            <div id="collapseSix" class="accordion-body collapse" aria-labelledby="headingSix" >
-                              <div class="card-body">
-                                <ul class="list-group">
-                                  <li class="list-group-item">
-                                      <div class="checkbox">
-                                          <label>
-                                              <input type="checkbox" value="">1h</label>
-                                      </div>
-                                  </li>
-                                  <li class="list-group-item">
-                                      <div class="checkbox">
-                                          <label>
-                                              <input type="checkbox" value="">1h30</label>
-                                      </div>
-                                  </li>
-                                  <li class="list-group-item">
+                                <li class="list-group-item">
                                     <div class="checkbox">
                                         <label>
-                                            <input type="checkbox" value="">2h</label>
+                                            <input type="checkbox" value="">Chuyên nghiệp</label>
                                     </div>
                                 </li>
-                                </ul>
-                              </div>
+                            </ul>
                             </div>
-                          </div>
-                      </div>
-                      <div class="btn btn-primary btn-lg" style="float:right; margin-top: 10px;">Tìm</div>
+                        </div>
+                        </div>
+                        <div class="card">
+                        <div class="card-header collapsed" id="headingTwo" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            <h4 class="mb-0 card-title">
+                            Độ tuổi
+                            </h4>
+                        </div>                  
+                        <div id="collapseTwo" class="accordion-body collapse" aria-labelledby="headingTwo">
+                            <div class="card-body">
+                            <ul class="list-group">
+                                <li class="list-group-item">
+                                    <div class="checkbox">
+                                        <label>
+                                            <input type="checkbox" value="">5-9</label>
+                                    </div>
+                                </li>
+                                <li class="list-group-item">
+                                    <div class="checkbox">
+                                        <label>
+                                            <input type="checkbox" value="">9-15</label>
+                                    </div>
+                                </li>
+                            </ul>
+                            </div>
+                        </div>
+                        </div>
+                        <div class="card">
+                        <div class="card-header collapsed" id="headingThree" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            <h4 class="mb-0 card-title">
+                            Giới tính
+                            </h4>
+                        </div>                  
+                        <div id="collapseThree" class="accordion-body collapse" aria-labelledby="headingThree">
+                            <div class="card-body">
+                            <ul class="list-group">
+                                <li class="list-group-item">
+                                    <div class="checkbox">
+                                        <label>
+                                            <input type="checkbox" value="">Nam</label>
+                                    </div>
+                                </li>
+                                <li class="list-group-item">
+                                    <div class="checkbox">
+                                        <label>
+                                            <input type="checkbox" value="">Nữ</label>
+                                    </div>
+                                </li>
+                            </ul>
+                            </div>
+                        </div>
+                        </div>
+                        <div class="card">
+                        <div class="card-header collapsed" id="headingFour" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour"> 
+                            <h4 class="mb-0 card-title">
+                            Huấn luyện viên
+                            </h4>
+                        </div>                  
+                        <div id="collapseFour" class="accordion-body collapse" aria-labelledby="headingFour">
+                            <div class="card-body">
+                            <ul class="list-group">
+                                <li class="list-group-item">
+                                    <div class="checkbox">
+                                        <label>
+                                            <input type="checkbox" value="">Quốc tế</label>
+                                    </div>
+                                </li>
+                                <li class="list-group-item">
+                                    <div class="checkbox">
+                                        <label>
+                                            <input type="checkbox" value="">Quốc gia</label>
+                                    </div>
+                                </li>
+                                <li class="list-group-item">
+                                <div class="checkbox">
+                                    <label>
+                                        <input type="checkbox" value="">Đào tạo chính quy</label>
+                                </div>
+                            </li>
+                            </ul>
+                            </div>
+                        </div>
+                        </div>
+                        <div class="card">
+                        <div class="card-header collapsed" id="headingFive" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                            <h4 class="mb-0 card-title">
+                            Buổi học
+                            </h4>
+                        </div>                  
+                        <div id="collapseFive" class="accordion-body collapse" aria-labelledby="headingFive">
+                            <div class="card-body">
+                            <ul class="list-group">
+                                <li class="list-group-item">
+                                    <div class="checkbox">
+                                        <label>
+                                            <input type="checkbox" value="">Sáng</label>
+                                    </div>
+                                </li>
+                                <li class="list-group-item">
+                                    <div class="checkbox">
+                                        <label>
+                                            <input type="checkbox" value="">Trưa</label>
+                                    </div>
+                                </li>
+                                <li class="list-group-item">
+                                <div class="checkbox">
+                                    <label>
+                                        <input type="checkbox" value="">Chiều</label>
+                                </div>
+                            </li>
+                            </ul>
+                            </div>
+                        </div>
+                        </div>
+                        <div class="card">
+                        <div class="card-header collapsed collapsed" id="headingSix" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                            <h4 class="mb-0 card-title">
+                            Thời gian
+                            </h4>
+                        </div>                  
+                        <div id="collapseSix" class="accordion-body collapse" aria-labelledby="headingSix" >
+                            <div class="card-body">
+                            <ul class="list-group">
+                                <li class="list-group-item">
+                                    <div class="checkbox">
+                                        <label>
+                                            <input type="checkbox" value="">1h</label>
+                                    </div>
+                                </li>
+                                <li class="list-group-item">
+                                    <div class="checkbox">
+                                        <label>
+                                            <input type="checkbox" value="">1h30</label>
+                                    </div>
+                                </li>
+                                <li class="list-group-item">
+                                <div class="checkbox">
+                                    <label>
+                                        <input type="checkbox" value="">2h</label>
+                                </div>
+                            </li>
+                            </ul>
+                            </div>
+                        </div>
+                        </div>
+                        <div class="btn btn-primary btn-lg" style="float:right; margin-top: 10px;">Tìm</div>
+                    </div> 
+                  </div>
                 </div>
                 <!--Filter-->
                 <div class ="col-xl-9 col-lg-10 col-md-9 col-xs-12 col-sm-9">
-                    <div class="classes-title-section d-flex">
+                  <div class="row classes-title-section">
+                    <div class="col-md-6 col-sm-12 d-flex justify-content-start">
                         <h1 style="color:rgb(119, 190, 67)"><strong>Các khoá học:</strong></h1>
+                    </div>
+                    <div class="col-md-6 col-sm-12 d-flex justify-content-end">
                         <div class="btn-sort"> 
                             <div class="btn-group ">
                                 <button class="btn prices-sort" type="button" data-toggle="dropdown" 
@@ -287,6 +296,7 @@
 
                         </div>
                     </div>
+                  </div>
                     <!-- Cards -->
                     <div class="new-class" style="padding: top 25px">
                         <div class="container">

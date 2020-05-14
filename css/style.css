@@ -846,6 +846,19 @@ footer .Infor span {
     content:"\f078"
 }
 
+@media screen and (max-width: 992px){
+    h4.filter-titile.hide{
+        display: none !important;
+    }
+}
+
+
+@media screen and (min-width: 992px){
+    div.filter-bar.collapse.navbar-collapse{
+        display: block !important;
+    }
+}
+
 /* Filter Bar */
 
 /* Classes styles */
@@ -936,6 +949,10 @@ button.prices-sort{
     text-transform: uppercase;
     font-weight: 700;
     font-size: 16px;
+}
+
+.form-control1{
+    width: 100%;
 }
 
 /* News Styles */
