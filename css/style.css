@@ -8,7 +8,12 @@
     font-size: 14px;
     background-color:white;
 }
-
+#background_main{
+	background-color:rgb(244, 246, 249);
+}
+#background_content{
+	background-color:white;
+}
 
 header {
     text-transform: uppercase;
