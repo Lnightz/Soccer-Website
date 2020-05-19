@@ -62,6 +62,7 @@ header .nav-item.active::after{
     background: white;
 }
 
+
 a.dropdown-item:hover{
     background-color: transparent !important ;
 }

@@ -1,8 +1,13 @@
+header .navbar{
+    padding-top:0;
+    padding-bottom: 0;
+}
+
 .navbar-nav li{
     padding: 0 5px;
 }
 .navbar-nav li a{
-    font-size: 10px;
+    font-size: 13px;
     color: black !important;
     font-weight: 600;
 }
