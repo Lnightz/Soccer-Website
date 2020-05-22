@@ -1,3 +1,8 @@
+/**Scroll nav*/
+$(window).scroll(function(){
+    $('nav').toggleClass('scrolled', $(this).scrollTop()>400);
+  });
+
 /** First Slider */
 $(".slider-one")
     .not(".slick-intialized")
