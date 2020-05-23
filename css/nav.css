@@ -69,3 +69,15 @@ header .nav-item.active::after{
     height: 2px;
     background: white;
 }
+
+header .dropdown:hover > .dropdown-menu{
+    display: block;
+}
+
+header .dropdown-menu{
+    background-color: rgb(119, 190, 67) ;
+}
+
+header .dropdown-item:hover{
+    background: none;
+}
