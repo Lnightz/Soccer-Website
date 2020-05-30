@@ -1277,3 +1277,28 @@ text-align: center;
 	font-size:30px;
 }
 /* Tourament Detail Styles */
+#tagbtn{
+    display: inline-block;
+    position: relative;
+    font-size: 14px;
+    background-color: rgb(244, 246, 249);
+    color: ;
+    font-weight: 500;
+    letter-spacing: 1px;
+    border: none;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, .2);
+    text-transform: none;
+    cursor: pointer;
+    outline: 0;
+    margin: 5px;
+    padding: 0 22px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 5px;
+}
+#tagbtn:hover{
+    background-color: #444;
+    color: #FFF;
+    text-shadow: 1px 1px 1px rgba(0,0,0,.2);
+
+}
